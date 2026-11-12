@@ -1,0 +1,3 @@
+def calculate_change(paid, price):
+    change = paid - price
+    return change

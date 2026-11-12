@@ -1,0 +1,7 @@
+while True:
+    coin = int(input("Enter a coin value: "))
+    if coin not in (1, 5, 10, 25):
+        print("Invalid coin, try again!")
+        continue
+    print("Valid coin:", coin)
+    break
